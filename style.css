@@ -15,19 +15,41 @@ span{
 }
 
 section{
+    padding: 20px;
+    position: absolute;
     display: block;
     width: 600px;
-    margin: 0 auto;
     background-color: #E5E9EC;
     color: #0C120C;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
 
+    border-radius: 25px;
 }
 
 h1{
     text-align: center;
+    margin-bottom: 30px;
+}
+
+
+form div{
+    margin: 20px 0;
+}
+
+input, select{
+    display: inline-block;
+    margin: 0 auto!important;
+}
+
+textarea{
+    width: 100%;
 }
 
 
 .btn{
     width: 40px;
+    display: block!important;
+    margin: 0 auto;
 }
